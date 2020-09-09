@@ -32,25 +32,3 @@ server.listen(PORT, function() {
   console.log('Chat server running');
 }); 
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import NameForm from './client/NameForm'
-
-
-ReactDOM.render(
-    <div>
-    <NameForm />
-
-
-    </div>    
-    ,
-    
-  document.getElementById('root')
-);
-
-
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
