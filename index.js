@@ -34,7 +34,7 @@ server.listen(PORT, function() {
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NameForm from './src/NameForm'
+import NameForm from './client/NameForm'
 
 
 ReactDOM.render(
